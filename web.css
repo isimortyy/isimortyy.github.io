@@ -1,0 +1,67 @@
+        
+
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+.emcabezado{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(177, 87, 189);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Protest Riot", sans-serif;
+}
+.contenedor{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(255, 255, 255);
+}
+.cajas{
+    width: 70%;
+    height: auto;
+    margin: 3rem;
+    overflow: hidden;
+    position: relative;
+    border-style: solid; 
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale();
+    flex-wrap: wrap;
+}
+
+img:hover{
+    filter: grayscale(0%);
+}
+
+.texto{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(245, 241, 241, 0.336);
+    color: rgb(10, 10, 10);
+    transform: translateY(100%);
+    font-family: "Protest Riot", sans-serif;
+}
+
+.cajas:hover .texto{
+    transform: translateY(0%);
+}
+
+@media screen and (max-width:800px) {
+    .contenedor{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .cajas{
+        width: 50%;
+    }
+}
+

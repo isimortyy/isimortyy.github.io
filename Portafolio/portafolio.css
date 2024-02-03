@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#encabezado{
+    width: 100%;
+    padding: 5px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;  
+    z-index: 5;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.adso{
+    color: rgb(175,18 ,81);
+    display: flex;
+    margin-left:130px; 
+}
+.menu1{
+    display: flex; 
+    flex-wrap: wrap;
+}
+.menu{
+    padding-inline: 15px;    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.menu:hover{
+    color:rgb(175,18 ,81);
+}
+
+.iconos{
+    margin-right: 130px;
+}
+
+i{
+    padding-inline: 5px;
+}
+
+.inicio{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: url(./Imagenes/pexels-tima-miroshnichenko-5380651\ \(1\).jpg);
+    background-color: rgb(82, 82, 82);
+    background-blend-mode: soft-light;
+}
+
+.texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    z-index:4 ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tex1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.tex2{
+    margin-right: 5px;
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    
+}
+.tex3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: rgb(223, 64, 127);
+}
+
+.tex4{
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    padding: 30px;
+}
+
+.boton1{
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding: 15px  30px;
+    margin-top: 30px ;
+}
+.sobre_mi{
+    width: 100%;
+    display: flex;   
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    
+}
+
+#foto{
+    /* width: 70%; */
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(231, 229, 229); 
+    background-color: rgb(231, 229, 229); 
+    box-sizing: border-box;
+    flex-wrap: wrap;
+   
+}
+
+.descripcion{
+    flex-wrap: wrap;
+    margin: 5%;
+
+    
+}
+.sub{
+    color: rgb(116, 115, 115);
+    margin-bottom: 10px;
+    font-size: 15px; 
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(218, 215, 215);
+  
+}
+
+.des2{
+    margin-bottom: 40px;
+    font-size: 20px;
+    
+}
+.nombre{
+    color: rgb(223, 64, 127);
+}
+.des3{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.des4{
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: gray;
+}
+.des5{
+     margin-bottom: 40px; 
+     color: gray;
+    
+}
+.boton2{
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 12px  30px;
+    font-size: 15px;
+   
+}
+.mis_servicio{
+    background-color:rgb(238, 236, 236) ;
+    display: grid;
+    width: 100%;
+}
+.sub{
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(218, 215, 215);
+}
+.titulo{
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding: 80px 10px 10px;
+
+}
+
+.pcaja{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat( 3,1fr);
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#caja{
+    width: 80%;
+    height: auto;
+    margin: 12px 10px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+}
+.icono{
+    font-size: 40px;
+    color: rgb(223, 64, 127);
+    padding: 20px;
+}
+.separar{
+    word-spacing: 60px;
+    font-size: 18px;
+    margin: 20px;
+}
+.linea{
+    width: 30%;
+    justify-content: space-between;
+    margin-left: 35%;
+    
+}
+.tit{
+    margin-bottom: 5%;
+    font-size: 25px;
+}
+
+.habilidades{
+    padding: 5% 25%;
+    height: auto;
+    background-image: url(./Imagenes/fondo1.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: rgb(61, 10, 10);
+    background-blend-mode: soft-light;
+    z-index: 6;
+    
+}
+.contenedor{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+}
+
+.tituloH{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 15x;
+}
+
+.estilo:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.detalles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+
+}
+.barra{
+    position: relative;
+    border: 2px solid rgb(243, 232, 232);
+    border-radius: 20px;
+   
+
+} 
+.barra div{
+    position: relative;
+    width: 0;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(240, 231, 231);
+}
+ 
+#Js-barra{
+    animation: Js-barra 2s forwards;
+}
+
+@keyframes Js-barra{
+    100%{
+        width: 50%;
+    }
+}
+
+#HTML-barra{
+    animation: HTML 2s forwards;
+}
+@keyframes HTML{
+    100%{
+        width: 70%;
+    }
+}
+
+#Phython-barra{
+    animation: phython 2s forwards;
+}
+
+@keyframes phython{
+    100%{
+        width: 30%;
+    }
+}
+
+#datos-barra{
+    animation: datos 2s forwards;
+}
+@keyframes datos{
+    100%{
+        width: 80%;
+    }
+}
+.proyectos{
+    background-color:rgb(238, 236, 236) ;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    flex-wrap: wrap;
+   
+}
+.titpro{
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding: 80px 10px 10px;
+}
+.subpro{
+    color: rgb(116, 115, 115);
+    margin-bottom: 10px;
+    font-size: 18px; 
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(218, 215, 215);
+}
+
+.proyecto-contenedor{  /* container */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+ 
+}
+
+#proyectos-item{   /* items */
+    width: 70%;
+    height: auto;
+    margin: 15px;
+    overflow: hidden;
+    position: relative;
+    border-style: solid;
+}
+
+img{    /* imagenes */
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    flex-wrap: wrap;
+   
+}
+
+img:hover{
+    filter: grayscale(0%);
+}
+
+.texto-pro{  /* texto */
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.336);
+    color: rgb(255, 255, 255);
+    transform: translateY(100%);
+}
+
+.des{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#proyectos-item:hover .texto-pro{
+    transform: translateY(0%);
+    
+}
+.contacto{
+    background-color: rgb(206, 199, 199) ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;   
+    
+}
+.contacto-contenedor{
+    width: 100%; 
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hijo-co{
+    width: 64%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+.nom-co{
+    display: flex;
+    width: 45%;
+    height: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    margin: 15px ;
+    background-color: white;
+}
+
+.correo-co{
+    display: flex;
+    width: 45%;
+    height: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    margin: 15px;
+    background-color: white;
+}
+
+.tema-co{
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    margin: 15px;
+    background-color: white;
+}
+.mensaje-co{
+    width: 60%;
+    height: 120px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    margin: 15px;
+    background-color: white;
+}
+.boton3{
+    padding: 10px  30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+    margin: 20px;
+  
+
+}
+
+
+footer {
+    background-color: black;
+    padding: 10px;
+}
+
+.reservados{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.redes{
+    text-align: center;
+    margin: 5px;
+}
+
+
+/* responsive */
+
+@media screen and (max-width:1150px) {
+    .proyecto-contenedor {
+    
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pcaja{
+    grid-template-columns: repeat(2,1fr);
+}
+}
+
+
+@media screen and (max-width:800px) {
+    .pcaja{
+        grid-template-columns: repeat(1,1fr)
+    }
+    .foto{
+        width: 80%;
+    }
+    
+    .tex2{
+        font-size: 40px;
+    }
+    
+    .tex3{
+        font-size: 25px;
+    }
+    .proyecto-contenedor{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .contacto-contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hijo-co{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nom-co{
+        width: 100%;
+    }
+
+    .correo-co{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .tex2{
+        font-size: 28px;
+    }
+    
+    .tex3{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:200px) {
+    .proyecto-contenedor {
+    
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.tex2{
+    font-size: 20px;
+}
+
+.tex3{
+    font-size: 10px;
+}
+
+}
